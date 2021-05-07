@@ -1,3 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .non-binary {
     border-color: blueviolet;
     background-color: blueviolet;
@@ -17,4 +36,14 @@ img {
     border-radius: 50%;
     border: 5px #333 solid;
     margin-bottom: 1 rem;
+    height: 150px;
+    width: 150px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    color: cornsilk;
+    border: 2px white solid;
+    border-radius: 20px;
 }
