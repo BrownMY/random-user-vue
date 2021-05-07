@@ -1,2 +1,2 @@
-# bubble-vue
-Simple self-care tracking app
+# Random User
+Some Vue practice
