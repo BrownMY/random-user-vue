@@ -1,0 +1,20 @@
+.non-binary {
+    border-color: blueviolet;
+    background-color: blueviolet;
+}
+
+.male {
+    border-color: chocolate;
+    background-color: chocolate;
+}
+
+.female {
+    border-color: green;
+    background-color: darkgreen;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px #333 solid;
+    margin-bottom: 1 rem;
+}
