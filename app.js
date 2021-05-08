@@ -7,6 +7,8 @@ const app = Vue.createApp({
             email: 'johndoe@gmail.com',
             gender: 'non-binary',
             picture: 'https://randomuser.me/api/portraits/women/5.jpg',
+            city: 'Detroit',
+            country: 'United States'
         }
     },
     methods: {
@@ -19,8 +21,10 @@ const app = Vue.createApp({
             this.email = results[0].email,
             this.gender = results[0].gender,
             this.picture = results[0].picture.large,
-        
-            console.log(this.firstName)
+            this.city = results[0].location.city,
+            this.country = results[0].location.country
+
+            //console.log(results)
         }
     },
 })
